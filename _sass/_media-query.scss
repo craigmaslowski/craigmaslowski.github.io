@@ -1,7 +1,7 @@
 // Usage: @include media-query($600px) { }
 
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+@mixin media-query($width) {
+    @media screen and (min-width: $width) {
         @content;
     }
 }
