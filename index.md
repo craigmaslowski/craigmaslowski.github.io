@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h2>HI! MY NAME IS CRAIG <span class="line-break">AND I <span class="heart">♥</span> CODING!</span></h2>
+<h2>HI! MY NAME IS CRAIG <span class="responsive-line-break">AND I <span class="heart">♥</span> CODING!</span></h2>
 
 I'm a full stack software engineer specializing in front end web development. Building cool things on the web has been an undying passion of mine for the last <span class="years">20</span> years.
 

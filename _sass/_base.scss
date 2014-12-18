@@ -136,18 +136,18 @@ a:hover, a:active {
   }
 }
 
-.line-break {
+.responsive-line-break {
   display: block;
 }
 
 @include media-query(map-get($breakpoints, "medium")) {
-  .line-break {
+  .responsive-line-break {
     display: inline;
   }
 }
 
 @include media-query(map-get($breakpoints, "large")) {
-  .line-break {
+  .responsive-line-break {
     display: inline;
   }
 }
