@@ -24,6 +24,50 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: $red;
+}
+
+a:hover, a:active {
+  color: darken($red, 10%);
+}
+
+#site-nav {
+  @extend %p;
+  h1, nav, ul, li { display: inline; }
+  padding: 20px;
+
+  .logo {
+    a, a:visited {
+      text-decoration: none;
+      color: $white;
+    }
+
+    a:hover, a:active {
+      color: $white;
+    }
+    @extend .circle;
+    font-family: "MothproofScriptRegular";
+    color: $white;
+    text-shadow: 0px 2px 3px #555;
+
+    background: $red;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+  }
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  #site-nav {
+    position: fixed;
+    top: 20;
+    left: 0;
+    h1, nav, li { display: block; }
+  }
+}
+
 #site-wrapper {
   min-height: 100%;
   margin-bottom: $footer-height * -1;
@@ -49,6 +93,12 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  #site-content {
+    padding: 0;
+  }
 }
 
 #site-footer {
@@ -90,22 +140,13 @@ body {
   display: block;
 }
 
-@include media-query(map-get($breakpoints, "small")) {
-  
-}
-
 @include media-query(map-get($breakpoints, "medium")) {
   .line-break {
     display: inline;
   }
 }
 
-
 @include media-query(map-get($breakpoints, "large")) {
-  #site-content {
-    padding: 0;
-  }
-
   .line-break {
     display: inline;
   }
@@ -113,4 +154,10 @@ body {
 
 .heart {
   color: $red;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px; 
 }
