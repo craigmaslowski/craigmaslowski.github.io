@@ -5,6 +5,9 @@
     @extend %p;
     background: #FFF1DB;
     font-family: $default-monospace-font-family;
+    padding: 20px;
+    
+    overflow: scroll;
 
     pre, code {
         font-family: $default-monospace-font-family;

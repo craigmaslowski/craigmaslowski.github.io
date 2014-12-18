@@ -37,12 +37,30 @@ a:hover, a:active {
   color: darken($red, 10%);
 }
 
-#site-nav {
+#site-header {
   @extend %p;
-  h1, nav, ul, li { display: inline; }
   padding: 20px;
 
+  h1, nav, li { display: inline; }
+
+  nav {
+    margin-left: 40px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
   .logo {
+    @extend .circle;
+    font-family: "MothproofScriptRegular";
+    background: $red;
+    color: $white;
+    font-size: 46px;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: 0px 2px 3px #555;
+
     a, a:visited {
       text-decoration: none;
       color: $white;
@@ -51,46 +69,37 @@ a:hover, a:active {
     a:hover, a:active {
       color: $white;
     }
-    @extend .circle;
-    font-family: "MothproofScriptRegular";
-    color: $white;
-    text-shadow: 0px 2px 3px #555;
-
-    background: $red;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 80px;
   }
 }
 
 @include media-query(map-get($breakpoints, "large")) {
-  #site-nav {
+  #site-header {
     position: fixed;
     top: 20;
     left: 0;
+    
     h1, nav, li { display: block; }
+
+    nav {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+    li {
+      margin-right: 0;
+    }
   }
 }
 
 #site-wrapper {
   min-height: 100%;
-  margin-bottom: $footer-height * -1;
+  margin-bottom: ($footer-height) * -1;
 }
 
 #site-wrapper:after {
   content: "";
   display: block;
-  height: 110px; 
-}
-
-#site-header {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
-  
-  h1 {
-    margin: 0;
-  }
+  height: $footer-height; 
 }
 
 #site-content {
@@ -107,12 +116,12 @@ a:hover, a:active {
 
 #site-footer {
   height: $footer-height;
-
-  background: $light-blue;
+  
+  background: $white;
   color: $white;
   text-align: center;
-
   & > div {
+    background: $light-blue;
     padding: 20px;
   }
 
@@ -164,4 +173,24 @@ a:hover, a:active {
   border-radius: 50%;
   width: 80px;
   height: 80px; 
+}
+
+.inline-image {
+  float: left;
+  margin-right: 20px;
+  border: 10px solid #F8F8F8;
+}
+
+.push {
+  height: $footer-height / 6;
+}
+
+#disqus_thread {
+  margin-top: 20px;
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  .push {
+    height: $footer-height / 2;
+  }
 }

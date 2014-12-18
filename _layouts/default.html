@@ -3,20 +3,15 @@
 {% include head.html %}
 <body>
   <div id="site-wrapper">
-    <nav id="site-nav">
-      <h1 class="logo"><a href="/">CM</a></h1>
-      <nav>
-        <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/blog">Blog</a></li>
-        </ul>
-      </nav>
-    </nav>
     {% include header.html %}
 
+    <div class="push"></div>
+    
     <div id="site-content">
       {{ content }}
     </div>
+
+    <div class="push"></div>
   </div>
   {% include footer.html %}
 </body>
