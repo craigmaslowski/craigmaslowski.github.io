@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: I BUILD COOL THINGS ON THE WEB
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My career as a software engineer began in 1996, but my experience with the web goes back to 2004 when I started building "home pages" of the era.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Since those early days, some of the web applications I've built include a knowledge base for GoldMine Software, accounting and reconcilliation systems for GMAC Residential Captial Group, a youth team sports registration system for the Active Network, systems to allow automotive mechanics to quickly access vehicular diagnostic and repair information for Mitchell 1, an online textbook reader for BridgePoint Education, and time share management software for ResortCom.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Today, I work as a staff senior software engineer for Fairway Technologies in La Jolla, CA. I provide best in class service, utilizing various technologies, to Fairway's clients. 
+
+In my spare time, I can often be found enjoying time with friends and family, playing hockey, or making music.

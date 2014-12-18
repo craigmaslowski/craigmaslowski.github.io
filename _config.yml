@@ -15,3 +15,6 @@ github_username:  craigmaslowski
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM

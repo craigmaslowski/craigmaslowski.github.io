@@ -12,6 +12,10 @@ p {
   margin: 1em 0;
 }
 
+pre, code {
+  @extend %p;
+}
+
 html,
 body {
   margin: 0;
