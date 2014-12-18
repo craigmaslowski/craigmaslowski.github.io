@@ -1,11 +1,15 @@
 $footer-height: 110px;
 
-h2 { 
+* { 
   margin: 0;
 }
 
-h2 { 
+h1, h2, h3 { 
   margin: 0 0 0.83em 0;
+}
+
+p {
+  margin: 1em 0;
 }
 
 html,
