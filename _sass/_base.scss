@@ -1,7 +1,42 @@
 body {
   font-family: $default-font-family;
-  font-size: $base-font-size;
   color: $default-text-color;
   background-color: $default-background-color;
   -webkit-text-size-adjust: 100%;
+}
+
+.site-header {
+  margin: 0 auto;
+  width: 800px;
+  padding: 0 20px;
+  
+  h1 {
+    margin: 0;
+  }
+}
+
+.site-footer {
+  background: $light-blue;
+  color: $white;
+  text-align: center;
+
+  .icons {
+    fill: $white;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+@media (min-width: map-get($breakpoints, "large")) {
+  .content {
+    padding: 0;
+  }
+}
+
+.heart {
+  color: $red;
 }

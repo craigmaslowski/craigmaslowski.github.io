@@ -4,10 +4,10 @@
 @charset "utf-8";
 
 @import 
+  "fonts",
   "normalize",
-  "variables", 
+  "typography",
+  "colors", 
   "media-query", 
   "base",
-  "syntax-highlighting",
-  "site-header",
-  "site-footer";
+  "syntax-highlighting";

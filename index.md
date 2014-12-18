@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-# HI! MY NAME IS CRAIG AND I ♥ CODING!
+<h2>HI! MY NAME IS CRAIG AND I <span class="heart">♥</span> CODING!</h2>
 
-I'm a software engineer specializing in full stack web development with an emphasis on front end work. Building cool things on the web has been an undying passion of mine for the last 20 years.
+I'm a full stack software engineer specializing in front end web development. Building cool things on the web has been an undying passion of mine for the last <span class="years">20</span> years.
 
 I strive to build elegantly designed solutions while never losing sight of user experience or business goals. To acheive this, I keep up to date with the latest techniques and trends in web development and design.
 

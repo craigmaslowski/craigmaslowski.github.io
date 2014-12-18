@@ -11,8 +11,12 @@ $color-complement-light: #F1F6D0;
 $color-complement-dark: #4C5224;
 $color-complement-darker: #3E4412;
 
-$base-font-size: 16px;
-$default-font-family: Helvetica, Arial;
-$default-text-color: $color-primary-darkest;
-$default-background-color: $color-primary-lighter;
+$white: #ffffff; //(255,255,255)
+$grey: #edecea; //(237,236,234)
+$light-blue: #57a6ca; //(87,166,202)
+$dark-blue: #224250; //(34,66,80)
+$red: #9f1d1d; //(159,29,29)
+
+$default-text-color: $dark-blue;
+$default-background-color: $white;
 
