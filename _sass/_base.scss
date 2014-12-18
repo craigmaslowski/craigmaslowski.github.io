@@ -86,9 +86,28 @@ body {
   }
 }
 
+.line-break {
+  display: block;
+}
+
+@include media-query(map-get($breakpoints, "small")) {
+  
+}
+
+@include media-query(map-get($breakpoints, "medium")) {
+  .line-break {
+    display: inline;
+  }
+}
+
+
 @include media-query(map-get($breakpoints, "large")) {
   #site-content {
     padding: 0;
+  }
+
+  .line-break {
+    display: inline;
   }
 }
 
