@@ -4,7 +4,7 @@ timezone: America/Los_Angeles
 baseurl: ""
 url: "http://craigmaslowski.github.io"
 
-title: Craig Maslowski - Software Engineer
+title: Craig Maslowski
 email: craig@craigmaslowski.com
 description: > # this means to ignore newlines until "baseurl:"
   Website for Craig Maslowski, Software Engineer, specializing in front end 
