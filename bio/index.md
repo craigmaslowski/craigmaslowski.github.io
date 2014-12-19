@@ -1,10 +1,8 @@
 ---
 layout: page
 title: I BUILD COOL THINGS ON THE WEB
-permalink: /about/
+permalink: /bio/
 ---
-
-<img src="/images/me.jpg" class="inline-image me"/>
 
 My career as a software engineer began in 1996, but my experience with the web goes back to 2004 when I started building "home pages" of the era.
 
@@ -14,3 +12,6 @@ Today, I work as a staff senior software engineer for Fairway Technologies in La
 
 In my spare time, I can often be found enjoying time with friends and family, playing hockey, or making music.
 
+<div class="me">
+  <img src="/images/me.jpg" />
+</div>

@@ -1,9 +1,9 @@
+.heart {
+  color: $orange;
+}
+
 .shadow-box {
   border-radius: 5px;
-  //box-shadow: 2px 2px 2px #EEE;
-  //box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.10);
-  //border-left: 1px solid #F8F8F8;
-  //border-top: 1px solid #F8F8F8;
   border: 1px solid #F8F8F8;
 }
 
@@ -23,24 +23,15 @@
   }
 }
 
-.heart {
-  color: $orange;
-}
-
 .me {
+  display: block;
+  margin: 0 auto;
   width: 280px; 
   height: 372px;
-}
-
-@include media-query(map-get($breakpoints, "large")) {
-  .me {
-    width: 309px; 
-    height: 410px;
+  border: 10px solid #fafafa;
+  
+  img {
+    width: 280px; 
+    height: 372px;
   }
-}
-
-.inline-image {
-  float: left;
-  margin-right: 30px;
-  border: 10px solid #F8F8F8;
 }
