@@ -5,12 +5,19 @@
   h1, nav, li { display: inline; }
 
   nav {
-    @extend %blockquote;
+    @extend %bq;
     margin-left: 40px;
   }
 
   li {
     margin-right: 20px;
+  }
+
+  @include media-query(map-get($breakpoints, "large")) {
+    li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 
   .logo {
