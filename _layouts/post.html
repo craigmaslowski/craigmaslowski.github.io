@@ -16,7 +16,7 @@ layout: default
         {% endif %}
       {% endfor %}
       {% if category %}
-        {% capture category_content %} in <span class="label"><a href="/articles/category/{{ category.slug }}/">{{ category.name }}</a></span>{% endcapture %}
+        {% capture category_content %} in <a href="/articles/category/{{ category.slug }}/">{{ category.name }}</a>{% endcapture %}
       {% endif %}
     {% else %}
       {% assign category_content = '' %}

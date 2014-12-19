@@ -7,6 +7,14 @@
   nav {
     @extend %bq;
     margin-left: 40px;
+
+    a, a:visited {
+      color: $light-blue;
+    }
+
+    a:hover, a:active {
+      color: darken($light-blue, 10%);
+    }
   }
 
   li {

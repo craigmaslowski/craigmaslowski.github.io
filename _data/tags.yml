@@ -6,3 +6,6 @@
 
 - slug: cli
   name: Command Line
+
+- slug: chromeextension
+  name: Chrome Extension

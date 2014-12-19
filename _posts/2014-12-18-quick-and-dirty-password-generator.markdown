@@ -9,7 +9,7 @@ tags: [cli, javascript, nodejs]
 
 I needed something quick and dirty to generate random passwords, so I whipped up this little chunk of code. 
 
-{% highlight ruby %}
+{% highlight javascript %}
 #!/usr/bin/env node
  
 var chars  = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz',
