@@ -1,0 +1,38 @@
+.shadow-box {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #EEE;
+  border-left: 1px solid #F8F8F8;
+  border-top: 1px solid #F8F8F8;
+}
+
+.responsive-line-break {
+  display: block;
+}
+
+@include media-query(map-get($breakpoints, "medium")) {
+  .responsive-line-break {
+    display: inline;
+  }
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  .responsive-line-break {
+    display: inline;
+  }
+}
+
+.heart {
+  color: $red;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px; 
+}
+
+.inline-image {
+  float: left;
+  margin-right: 30px;
+  border: 10px solid #F8F8F8;
+}

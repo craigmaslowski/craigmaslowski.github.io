@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Quick and Dirty Password Generator"
-date: 2014-12-18 1:10:00
+date: 2014-12-18 13:10:00
 excerpt: "I needed something quick and dirty to generate random passwords, so I whipped up this little chunk of code."
+category: "programming"
+tags: [cli, javascript, nodejs]
 ---
 
 I needed something quick and dirty to generate random passwords, so I whipped up this little chunk of code. 
@@ -22,23 +24,23 @@ for (var i = 0; i < length; i++) {
 console.log(string);
 {% endhighlight %}
 
-It generates a random string twelve characters in length by default. It also Accepts an optional command line parameter for specifying password length. 
+It generates a random twelve character string by default. It also accepts an optional command line parameter for customizing the generated password's length. 
 
-Requires node.js or some other server side JavaScript engine.
+Requires node.js.
 
 ### Installation
-Put the file on your drive.
+Put the ```pw``` file on your drive and change permissions.
 
 ```chmod 755 pw```
 
 ### Examples
 
-```
-> ./pw
+<pre>
+  > ./pw
 
-yJrenPAL7JfY
+  yJrenPAL7JfY
 
-> ./pw 20
+  > ./pw 20
 
-g3qwQULV20n4mQJI8lqV
-```
+  g3qwQULV20n4mQJI8lqV
+</pre>

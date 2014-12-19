@@ -3,15 +3,7 @@
  */
 .highlight {
     @extend %p;
-    background: #FFF1DB;
-    font-family: $default-monospace-font-family;
-    padding: 20px;
-    
     overflow: scroll;
-
-    pre, code {
-        font-family: $default-monospace-font-family;
-    }
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error

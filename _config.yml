@@ -1,5 +1,5 @@
 # Site settings
-permalink: "/:title"
+permalink: "/articles/:title"
 timezone: America/Los_Angeles
 baseurl: ""
 url: "http://craigmaslowski.github.io"

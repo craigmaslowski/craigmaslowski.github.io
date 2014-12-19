@@ -1,0 +1,125 @@
+#site-header {
+  @extend %p;
+  padding: 20px;
+
+  h1, nav, li { display: inline; }
+
+  nav {
+    margin-left: 40px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .logo {
+    @extend .circle;
+    font-family: "MothproofScriptRegular";
+    background: $red;
+    color: $white;
+    font-size: 46px;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: 0px 2px 3px #555;
+
+    a, a:visited {
+      text-decoration: none;
+      color: $white;
+    }
+
+    a:hover, a:active {
+      color: $white;
+    }
+  }
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  #site-header {
+    position: fixed;
+    top: 20;
+    left: 0;
+    
+    h1, nav, li { display: block; }
+
+    nav {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+    li {
+      margin-right: 0;
+    }
+  }
+}
+
+#site-wrapper {
+  min-height: 100%;
+  margin-bottom: ($footer-height) * -1;
+}
+
+#site-wrapper:after {
+  content: "";
+  display: block;
+  height: $footer-height; 
+}
+
+#site-content {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  #site-content {
+    padding: 0;
+  }
+}
+
+#site-footer {
+  height: $footer-height;
+  
+  background: $white;
+  color: $white;
+  text-align: center;
+  & > div {
+    background: $light-blue;
+    padding: 20px;
+  }
+
+  a, a:visited {
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover, a:active {
+    color: darken($white, 7%);
+  }
+
+  svg {
+    fill: $white;
+  }
+
+  svg:hover {
+    fill: darken($white, 7%);
+  }
+
+  h1 { 
+    @extend %p;
+    margin: 5px;
+    line-height: 1em;
+  }
+}
+
+.push20 {
+  height: 20px;
+}
+
+.push {
+  height: $footer-height / 6;
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  .push {
+    height: $footer-height / 2;
+  }
+}

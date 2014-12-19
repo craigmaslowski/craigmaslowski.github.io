@@ -1,0 +1,27 @@
+.date {
+  @extend .shadow-box;
+  position: relative;
+  width: 70px;
+  text-align: center;
+  padding: 5px;
+}
+
+.day { 
+  font-size: 36px;
+  line-height: 36px;
+}
+ 
+.month { 
+  font-size: 16px;
+  line-height: 16px;
+}
+ 
+.year { 
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.day, .month, .year {
+  display: block;
+  margin: 0;
+}

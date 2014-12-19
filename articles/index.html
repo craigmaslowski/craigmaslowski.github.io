@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<h2>Recent Posts</h2>
-<ul class="post-list">
+<h2>Recent Articles</h2>
+<div class="post-list">
   {% for post in site.posts %}
-    <li>
+    <div class="post">
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
       <p>{{ post.excerpt }}</p>
-    </li>
+    </div>
+    <div class="push20"></div>
   {% endfor %}
-</ul>
+</div>

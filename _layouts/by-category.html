@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header id="post-header">
+  <h2 id="post-subtitle">Articles in category {{ page.category }}</h2>
+</header>
+
+<div class="post-list">
+  {% if site.categories[page.category] %}
+    {% for post in site.categories[page.category] %}
+      <div class="post">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+      </div>
+      <div class="push20">
+    {% endfor %}
+  {% else %}
+    <p>There are no posts in this category.</p>
+  {% endif %}
+</div>

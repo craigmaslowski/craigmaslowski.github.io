@@ -1,0 +1,10 @@
+.post-list {
+  margin: 0;
+  padding: 0;
+
+  .post {
+    @extend .shadow-box;
+    padding: 20px;
+    margin: 0;
+  }
+}
