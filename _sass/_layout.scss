@@ -5,6 +5,7 @@
   h1, nav, li { display: inline; }
 
   nav {
+    @extend %blockquote;
     margin-left: 40px;
   }
 
