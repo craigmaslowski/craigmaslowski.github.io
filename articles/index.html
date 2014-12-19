@@ -4,12 +4,6 @@ layout: default
 <h2>Recent Articles</h2>
 <div class="post-list">
   {% for post in site.posts %}
-    <div class="post">
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <p>{{ post.excerpt }}</p>
-    </div>
-    <div class="push20"></div>
+    {% include post-list-item.html %}
   {% endfor %}
 </div>

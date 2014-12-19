@@ -37,9 +37,9 @@ pre, code {
 
 a, a:visited {
   text-decoration: none;
-  color: $red;
+  color: $orange;
 }
 
 a:hover, a:active {
-  color: darken($red, 10%);
+  color: darken($orange, 10%);
 }

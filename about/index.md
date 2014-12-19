@@ -4,7 +4,7 @@ title: I BUILD COOL THINGS ON THE WEB
 permalink: /about/
 ---
 
-<img src="/images/me.jpg" width="309" height="410" class="inline-image"/>
+<img src="/images/me.jpg" class="inline-image me"/>
 
 My career as a software engineer began in 1996, but my experience with the web goes back to 2004 when I started building "home pages" of the era.
 

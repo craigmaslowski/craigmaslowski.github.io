@@ -6,5 +6,10 @@
     @extend .shadow-box;
     padding: 20px;
     margin: 0;
+    color: $dark-blue;
+  }
+
+  .post-title {
+    color: $orange;
   }
 }

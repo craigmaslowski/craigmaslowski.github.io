@@ -22,13 +22,19 @@
 }
 
 .heart {
-  color: $red;
+  color: $orange;
 }
 
-.circle {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px; 
+.me {
+  width: 280px; 
+  height: 372px;
+}
+
+@include media-query(map-get($breakpoints, "large")) {
+  .me {
+    width: 309px; 
+    height: 410px;
+  }
 }
 
 .inline-image {

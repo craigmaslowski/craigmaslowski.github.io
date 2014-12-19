@@ -6,13 +6,7 @@ layout: default
 <div class="post-list">
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
-          <div class="post">
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-            <p>{{ post.excerpt }}</p>
-          </div>
-          <div class="push20"></div>
+          {% include post-list-item.html %}
         {% endfor %}
     {% else %}
         <p>There are no posts for this tag.</p>

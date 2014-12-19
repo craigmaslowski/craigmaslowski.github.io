@@ -1,0 +1,7 @@
+@mixin circle($radius) {
+  border-radius: $radius;
+  width: $radius * 2 !important;
+  height: $radius * 2 !important;
+  line-height: $radius * 2;
+  text-align: center;
+}
