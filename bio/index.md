@@ -4,7 +4,7 @@ title: I BUILD COOL THINGS ON THE WEB
 permalink: /bio/
 ---
 
-My career as a software engineer began in 1996, but my experience with the web goes back to 2004 when I started building "home pages" of the era.
+My career as a software engineer began in 1996, but my experience with the web goes back to 1994 when I started building "home pages" of the era.
 
 Since those early days, some of the web applications I've built include a knowledge base for GoldMine Software, accounting and reconcilliation systems for GMAC Residential Captial Group, a youth team sports registration system for the Active Network, systems to allow automotive mechanics to quickly access vehicular diagnostic and repair information for Mitchell 1, an online textbook reader for BridgePoint Education, and time share management software for ResortCom.
 
