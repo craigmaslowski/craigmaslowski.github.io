@@ -7,10 +7,10 @@ category: "programming"
 tags: [javascript, chromeextension]
 ---
 
-There's not much worse than click bait sites that Youtube videos adding an eye catching title but 
-nothing else extra of value. Upworthy is one worst offenders. After getting tired of clicking the 
-link to go directly to a YouTube video page from Upworthy, I decided to write a Chrome extenstion 
-to automatically redirect the browser for me. I call it Skip Worthy.
+There's not much worse than click bait sites that post other people's Youtube videos adding an eye 
+catching title but little else extra of value. Upworthy is one worst offenders. After getting tired 
+of constantly clicking the links to go directly to YouTube videos from Upworthy, I decided to write 
+a Chrome extenstion to automatically redirect the browser for me. I call it Skip Worthy.
 
 First off is the mainfest file.
 
