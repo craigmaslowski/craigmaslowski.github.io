@@ -12,6 +12,14 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body.disable-transitions {
+  -webkit-transition: all none !important;
+  -moz-transition: all none !important;
+  -ms-transition: all none !important;
+  -o-transition: all none !important;
+  transition: all none !important;
+}
+
 * { 
   margin: 0;
 }
@@ -36,10 +44,12 @@ pre, code {
 }
 
 a, a:visited {
+  @include transition(color);
+
   text-decoration: none;
   color: $orange;
 }
 
 a:hover, a:active {
-  color: darken($orange, 10%);
+  color: darken($orange, 25%);
 }

@@ -1,81 +1,6 @@
-#site-header {
-  @extend %p;
-  padding: 20px;
-
-  h1, nav, li { display: inline; }
-
-  nav {
-    @extend %bq;
-    margin-left: 40px;
-
-    a, a:visited {
-      color: $light-blue;
-    }
-
-    a:hover, a:active {
-      color: darken($light-blue, 10%);
-    }
-  }
-
-  li {
-    margin-right: 20px;
-  }
-
-  @include media-query(map-get($breakpoints, "large")) {
-    li {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  }
-
-  .logo {
-    $radius: 40px;
-    @include circle($radius);
-
-    display: inline-block;
-    background: $orange;
-    color: $white;
-    font-family: "WalkwayBoldRegular";
-    text-align: center;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
-
-    h1 {
-      font-size: $radius;
-      line-height: $radius * 2;
-    }
-
-    a, a:visited {
-      text-decoration: none;
-      color: $white;
-    }
-
-    a:hover, a:active {
-      color: $white;
-    }
-  }
-}
-
-@include media-query(map-get($breakpoints, "large")) {
-  #site-header {
-    position: fixed;
-    top: 20;
-    left: 0;
-    
-    h1, nav, li { 
-      display: block; 
-    }
-
-    nav {
-      margin-top: 20px;
-      margin-left: 0;
-      text-align: center;
-    }
-
-    li {
-      margin-right: 0;
-    }
-  }
-}
+@import 
+  "site-header",
+  "site-footer";
 
 #site-wrapper {
   min-height: 100%;
@@ -97,41 +22,6 @@
 @include media-query(map-get($breakpoints, "large")) {
   #site-content {
     padding: 0;
-  }
-}
-
-#site-footer {
-  height: $footer-height;
-  
-  background: $white;
-  color: $white;
-  text-align: center;
-  & > div {
-    background: $light-blue;
-    padding: 20px;
-  }
-
-  a, a:visited {
-    color: $white;
-    text-decoration: none;
-  }
-
-  a:hover, a:active {
-    color: darken($white, 7%);
-  }
-
-  svg {
-    fill: $white;
-  }
-
-  svg:hover {
-    fill: darken($white, 7%);
-  }
-
-  h1 { 
-    @extend %p;
-    margin: 5px;
-    line-height: 1em;
   }
 }
 
