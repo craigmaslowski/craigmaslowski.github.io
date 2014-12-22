@@ -57,7 +57,7 @@
     font-family: "WalkwayBoldRegular";
     text-align: center;
     text-decoration: none;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+    //text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
 
     &:visited {
       @include transition(color);
