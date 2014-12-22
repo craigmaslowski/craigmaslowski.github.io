@@ -1,8 +1,14 @@
 ---
 layout: default
+title: Articles
 ---
 
-<h2>Articles in category {{ page.category }}</h2>
+{% for category in site.data.categories %}
+  {% if category.slug == page.category %}
+    {% assign name = category.name %}
+  {% endif %}
+{% endfor %}
+<h2>Articles in {{ name }} category</h2>
 <div class="post-list">
   {% if site.categories[page.category] %}
     {% for post in site.categories[page.category] %}

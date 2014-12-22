@@ -1,8 +1,14 @@
 ---
 layout: default
+title: Articles
 ---
 
-<h2>Articles tagged with {{ page.tag }}</h2>
+{% for tag in site.data.tags %}
+  {% if tag.slug == page.tag %}
+    {% assign name = tag.name %}
+  {% endif %}
+{% endfor %}
+<h2>Articles tagged with {{ name }}</h2>
 <div class="post-list">
   {% if site.tags[page.tag] %}
     {% for post in site.tags[page.tag] %}

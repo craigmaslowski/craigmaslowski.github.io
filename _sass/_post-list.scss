@@ -4,15 +4,15 @@
 
   .post {
     @extend .bordered-box;
-    @include transition(box-shadow);
-    
+    @include transition(all, 50ms, linear);
+
     padding: 20px;
     margin: 0;
     color: $dark-blue;
     box-shadow: none;
 
     &:hover {
-      box-shadow: 4px 4px 2px 0 rgba(0,0,0, 0.05);
+      transform: scale(1.01) rotate(0.1deg);
     }
   }
 
