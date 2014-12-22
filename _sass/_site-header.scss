@@ -16,7 +16,6 @@
 
     a, a:visited {
       @include transition(color);
-      
       color: $light-blue;
     }
 

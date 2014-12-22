@@ -1,8 +1,9 @@
 ---
-layout: page
-title: I BUILD COOL THINGS ON THE WEB
+layout: default
+title: Bio
 permalink: /bio/
 ---
+<h2>I BUILD COOL THINGS <span class="responsive-line-break">ON THE WEB</span></h2>
 
 My career as a software engineer began in 1996, but my experience with the web goes back to 1994 when I started building "home pages" of the era.
 

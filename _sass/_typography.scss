@@ -84,7 +84,6 @@ $font-sizes: (p, bq, ssh, sh, h);
 }
 
 @each $size, $data in $bp-sizes {
-
   $bsf: get-breakpoint-property(base-font-size, $size);
   $blh: get-breakpoint-property(base-line-height, $size);
   $s: get-breakpoint-property(scale, $size);
