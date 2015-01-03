@@ -1,0 +1,795 @@
+[
+  {
+    "url": "https://api.github.com/gists/233494258a9ca4503c77",
+    "forks_url": "https://api.github.com/gists/233494258a9ca4503c77/forks",
+    "commits_url": "https://api.github.com/gists/233494258a9ca4503c77/commits",
+    "id": "233494258a9ca4503c77",
+    "git_pull_url": "https://gist.github.com/233494258a9ca4503c77.git",
+    "git_push_url": "https://gist.github.com/233494258a9ca4503c77.git",
+    "html_url": "https://gist.github.com/233494258a9ca4503c77",
+    "files": {
+      "buhbye.js": {
+        "filename": "buhbye.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/233494258a9ca4503c77/raw/3dd5919315f8139796dc5d07bb718020bc5b3f36/buhbye.js",
+        "size": 310
+      },
+      "manifest.json": {
+        "filename": "manifest.json",
+        "type": "application/json",
+        "language": "JSON",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/233494258a9ca4503c77/raw/a3ba1ef79a57275c2c82fdf66d7175f5ffbe66dd/manifest.json",
+        "size": 367
+      },
+      "readme.md": {
+        "filename": "readme.md",
+        "type": "text/plain",
+        "language": "Markdown",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/233494258a9ca4503c77/raw/11e46141b40a9a262b1248f62e2c8df189336f5c/readme.md",
+        "size": 111
+      }
+    },
+    "public": true,
+    "created_at": "2014-06-12T23:19:53Z",
+    "updated_at": "2014-06-12T23:22:40Z",
+    "description": "Upworthy Blogspam Killer",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/233494258a9ca4503c77/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/f9b7aff3205980326fe1",
+    "forks_url": "https://api.github.com/gists/f9b7aff3205980326fe1/forks",
+    "commits_url": "https://api.github.com/gists/f9b7aff3205980326fe1/commits",
+    "id": "f9b7aff3205980326fe1",
+    "git_pull_url": "https://gist.github.com/f9b7aff3205980326fe1.git",
+    "git_push_url": "https://gist.github.com/f9b7aff3205980326fe1.git",
+    "html_url": "https://gist.github.com/f9b7aff3205980326fe1",
+    "files": {
+      "pw": {
+        "filename": "pw",
+        "type": "text/plain",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/f9b7aff3205980326fe1/raw/d1c49697f3b2e23500e5e5294c7b28202974885f/pw",
+        "size": 364
+      },
+      "readme.md": {
+        "filename": "readme.md",
+        "type": "text/plain",
+        "language": "Markdown",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/f9b7aff3205980326fe1/raw/1433b96954e1a4e1130a887974969d1d5b4ea458/readme.md",
+        "size": 334
+      }
+    },
+    "public": true,
+    "created_at": "2014-05-04T17:04:15Z",
+    "updated_at": "2014-05-04T17:12:16Z",
+    "description": "Quick and dirty password generator",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/f9b7aff3205980326fe1/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/7969987",
+    "forks_url": "https://api.github.com/gists/7969987/forks",
+    "commits_url": "https://api.github.com/gists/7969987/commits",
+    "id": "7969987",
+    "git_pull_url": "https://gist.github.com/7969987.git",
+    "git_push_url": "https://gist.github.com/7969987.git",
+    "html_url": "https://gist.github.com/7969987",
+    "files": {
+      "example.js": {
+        "filename": "example.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/7969987/raw/70c46a1f4567d5f00d4d348bb85913645c75fa48/example.js",
+        "size": 1182
+      },
+      "template.define.js": {
+        "filename": "template.define.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/7969987/raw/ae8806ab9c475eb245ce1f4bc883a7ce5aaeaaea/template.define.js",
+        "size": 448
+      }
+    },
+    "public": true,
+    "created_at": "2013-12-15T07:25:22Z",
+    "updated_at": "2013-12-15T07:25:23Z",
+    "description": "Function for defining a Meteor template.",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/7969987/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/6653104",
+    "forks_url": "https://api.github.com/gists/6653104/forks",
+    "commits_url": "https://api.github.com/gists/6653104/commits",
+    "id": "6653104",
+    "git_pull_url": "https://gist.github.com/6653104.git",
+    "git_push_url": "https://gist.github.com/6653104.git",
+    "html_url": "https://gist.github.com/6653104",
+    "files": {
+      "p01.scala": {
+        "filename": "p01.scala",
+        "type": "text/plain",
+        "language": "Scala",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6653104/raw/c5851a939320d74acfc7a5580a7f13c3fdd3f514/p01.scala",
+        "size": 156
+      },
+      "p02.scala": {
+        "filename": "p02.scala",
+        "type": "text/plain",
+        "language": "Scala",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6653104/raw/88c3990f49b24af1dd51bed90d6e0be0fe09e220/p02.scala",
+        "size": 108
+      },
+      "p03.scala": {
+        "filename": "p03.scala",
+        "type": "text/plain",
+        "language": "Scala",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6653104/raw/4fa2ce298631a043acacc5e874c0b25efdd8a6bd/p03.scala",
+        "size": 156
+      },
+      "p04.scala": {
+        "filename": "p04.scala",
+        "type": "text/plain",
+        "language": "Scala",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6653104/raw/afdbb9f5dd0dad763c81f964c833a04ff7554fb8/p04.scala",
+        "size": 153
+      }
+    },
+    "public": true,
+    "created_at": "2013-09-21T18:45:50Z",
+    "updated_at": "2013-09-26T22:32:56Z",
+    "description": "S-99: Ninety-Nine Scala Problems - http://aperiodic.net/phil/scala/s-99/",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/6653104/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/6373765",
+    "forks_url": "https://api.github.com/gists/6373765/forks",
+    "commits_url": "https://api.github.com/gists/6373765/commits",
+    "id": "6373765",
+    "git_pull_url": "https://gist.github.com/6373765.git",
+    "git_push_url": "https://gist.github.com/6373765.git",
+    "html_url": "https://gist.github.com/6373765",
+    "files": {
+      "euler1.hs": {
+        "filename": "euler1.hs",
+        "type": "text/plain",
+        "language": "Haskell",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6373765/raw/f7fb3538af4a2e4dda974862df09e5ebf0f5c819/euler1.hs",
+        "size": 57
+      }
+    },
+    "public": true,
+    "created_at": "2013-08-29T02:53:23Z",
+    "updated_at": "2013-08-29T02:53:24Z",
+    "description": "Euler Solutions in Haskell",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/6373765/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/6369856",
+    "forks_url": "https://api.github.com/gists/6369856/forks",
+    "commits_url": "https://api.github.com/gists/6369856/commits",
+    "id": "6369856",
+    "git_pull_url": "https://gist.github.com/6369856.git",
+    "git_push_url": "https://gist.github.com/6369856.git",
+    "html_url": "https://gist.github.com/6369856",
+    "files": {
+      "backbone.error.js": {
+        "filename": "backbone.error.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/6369856/raw/d05fdf05cf6a263db9a8ce8e54507220eb92ffb2/backbone.error.js",
+        "size": 409
+      }
+    },
+    "public": true,
+    "created_at": "2013-08-28T18:58:58Z",
+    "updated_at": "2013-08-28T18:58:59Z",
+    "description": "backbone.error.js",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/6369856/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/5759511",
+    "forks_url": "https://api.github.com/gists/5759511/forks",
+    "commits_url": "https://api.github.com/gists/5759511/commits",
+    "id": "5759511",
+    "git_pull_url": "https://gist.github.com/5759511.git",
+    "git_push_url": "https://gist.github.com/5759511.git",
+    "html_url": "https://gist.github.com/5759511",
+    "files": {
+      "backbone.mixin.js": {
+        "filename": "backbone.mixin.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/5759511/raw/abcb036d76fa2ec57463edcba6f2338c986085df/backbone.mixin.js",
+        "size": 1816
+      }
+    },
+    "public": true,
+    "created_at": "2013-06-11T18:40:28Z",
+    "updated_at": "2013-08-28T18:56:38Z",
+    "description": "",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/5759511/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/5724688",
+    "forks_url": "https://api.github.com/gists/5724688/forks",
+    "commits_url": "https://api.github.com/gists/5724688/commits",
+    "id": "5724688",
+    "git_pull_url": "https://gist.github.com/5724688.git",
+    "git_push_url": "https://gist.github.com/5724688.git",
+    "html_url": "https://gist.github.com/5724688",
+    "files": {
+      "euler11.js": {
+        "filename": "euler11.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/5724688/raw/98e04df97c8e5f578a5497c7a15d99d1c559b0b1/euler11.js",
+        "size": 2493
+      }
+    },
+    "public": true,
+    "created_at": "2013-06-06T20:33:07Z",
+    "updated_at": "2013-06-06T20:33:08Z",
+    "description": "Project Euler Problem #11",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/5724688/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/5723883",
+    "forks_url": "https://api.github.com/gists/5723883/forks",
+    "commits_url": "https://api.github.com/gists/5723883/commits",
+    "id": "5723883",
+    "git_pull_url": "https://gist.github.com/5723883.git",
+    "git_push_url": "https://gist.github.com/5723883.git",
+    "html_url": "https://gist.github.com/5723883",
+    "files": {
+      "sortBy.js": {
+        "filename": "sortBy.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/5723883/raw/d70cf597e2b006321e2f840e9af303d2aea25e5b/sortBy.js",
+        "size": 1073
+      }
+    },
+    "public": true,
+    "created_at": "2013-06-06T18:44:31Z",
+    "updated_at": "2013-06-06T18:45:02Z",
+    "description": "UNTESTED - Sort Backbone Collection by up to three terms. ",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/5723883/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/5265794",
+    "forks_url": "https://api.github.com/gists/5265794/forks",
+    "commits_url": "https://api.github.com/gists/5265794/commits",
+    "id": "5265794",
+    "git_pull_url": "https://gist.github.com/5265794.git",
+    "git_push_url": "https://gist.github.com/5265794.git",
+    "html_url": "https://gist.github.com/5265794",
+    "files": {
+      "example.js": {
+        "filename": "example.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/5265794/raw/efc4663b876e5de5c98e9f02fc53d8d2e3e5444e/example.js",
+        "size": 134
+      },
+      "module.js": {
+        "filename": "module.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/5265794/raw/754cfab9047487f2d92177fb51e48c112332b726/module.js",
+        "size": 405
+      }
+    },
+    "public": true,
+    "created_at": "2013-03-28T18:50:17Z",
+    "updated_at": "2013-03-29T21:43:16Z",
+    "description": "Memoized module function with support for 'dot.notated.namespacing'",
+    "comments": 1,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/5265794/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/4449150",
+    "forks_url": "https://api.github.com/gists/4449150/forks",
+    "commits_url": "https://api.github.com/gists/4449150/commits",
+    "id": "4449150",
+    "git_pull_url": "https://gist.github.com/4449150.git",
+    "git_push_url": "https://gist.github.com/4449150.git",
+    "html_url": "https://gist.github.com/4449150",
+    "files": {
+      "backbone.puree.js": {
+        "filename": "backbone.puree.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4449150/raw/b80f2286a29aab967e5092738b48ffd09d0bc49a/backbone.puree.js",
+        "size": 689
+      }
+    },
+    "public": true,
+    "created_at": "2013-01-04T01:26:53Z",
+    "updated_at": "2013-07-09T22:54:13Z",
+    "description": "",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/4449150/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/4403216",
+    "forks_url": "https://api.github.com/gists/4403216/forks",
+    "commits_url": "https://api.github.com/gists/4403216/commits",
+    "id": "4403216",
+    "git_pull_url": "https://gist.github.com/4403216.git",
+    "git_push_url": "https://gist.github.com/4403216.git",
+    "html_url": "https://gist.github.com/4403216",
+    "files": {
+      "iframe.js": {
+        "filename": "iframe.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4403216/raw/4d0a7bc3ad8681357f4f517901cc8d59ae91f1e7/iframe.js",
+        "size": 308
+      }
+    },
+    "public": true,
+    "created_at": "2012-12-28T23:47:42Z",
+    "updated_at": "2012-12-28T23:47:43Z",
+    "description": "Backbone View For Controlling an IFrame",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/4403216/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/4218205",
+    "forks_url": "https://api.github.com/gists/4218205/forks",
+    "commits_url": "https://api.github.com/gists/4218205/commits",
+    "id": "4218205",
+    "git_pull_url": "https://gist.github.com/4218205.git",
+    "git_push_url": "https://gist.github.com/4218205.git",
+    "html_url": "https://gist.github.com/4218205",
+    "files": {
+      "bootstrap.modal.js": {
+        "filename": "bootstrap.modal.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/83c23a52eabd9f625a0c25894030f615f8ea471d/bootstrap.modal.js",
+        "size": 535
+      },
+      "destroyable.view.js": {
+        "filename": "destroyable.view.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/d5e5f35d0d1d215850c47586f2f6c5c39d35e0e4/destroyable.view.js",
+        "size": 252
+      },
+      "focus.form.js": {
+        "filename": "focus.form.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/5a5e36185234236dcc0e2bc7ea42b33ba983a94f/focus.form.js",
+        "size": 1373
+      },
+      "formatters.js": {
+        "filename": "formatters.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/7931aab9818ffc6fe5010d257585ddf5467cd643/formatters.js",
+        "size": 167
+      },
+      "list.item.form.view.js": {
+        "filename": "list.item.form.view.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/f8cca2b76066d430024a6ac613101f0b49265d57/list.item.form.view.js",
+        "size": 968
+      },
+      "list.view.item.js": {
+        "filename": "list.view.item.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/0a51ac281d493bf04238b6da3117e0cf8853d72f/list.view.item.js",
+        "size": 2059
+      },
+      "list.view.js": {
+        "filename": "list.view.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/0f6cd090464ec34d1bc0b49cf650a72b48ea6974/list.view.js",
+        "size": 2030
+      },
+      "postal.subscriber.js": {
+        "filename": "postal.subscriber.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/a9a4903e2cf3f69b5d67c2289b26249403f8b96f/postal.subscriber.js",
+        "size": 628
+      },
+      "slickgrid.collection.js": {
+        "filename": "slickgrid.collection.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/87be1f015a906e30e389c5c6f8f0aa5fb0252ec0/slickgrid.collection.js",
+        "size": 1955
+      },
+      "tab.manager.js": {
+        "filename": "tab.manager.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/71a0351a2cbf3aa74527ffdd9fc03792b27146f7/tab.manager.js",
+        "size": 889
+      },
+      "validating.view.js": {
+        "filename": "validating.view.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4218205/raw/375e5e9b3bb876993c1b15eff56f51c1d33fa105/validating.view.js",
+        "size": 820
+      }
+    },
+    "public": true,
+    "created_at": "2012-12-05T18:28:52Z",
+    "updated_at": "2013-09-21T18:55:00Z",
+    "description": "Backbone Mixins",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/4218205/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/4164501",
+    "forks_url": "https://api.github.com/gists/4164501/forks",
+    "commits_url": "https://api.github.com/gists/4164501/commits",
+    "id": "4164501",
+    "git_pull_url": "https://gist.github.com/4164501.git",
+    "git_push_url": "https://gist.github.com/4164501.git",
+    "html_url": "https://gist.github.com/4164501",
+    "files": {
+      "bootstrap.popover.js": {
+        "filename": "bootstrap.popover.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4164501/raw/9604e2b41d42bec33926bc80762a9efe2ea6c4bc/bootstrap.popover.js",
+        "size": 10236
+      },
+      "example.html": {
+        "filename": "example.html",
+        "type": "text/html",
+        "language": "HTML",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/4164501/raw/0f7c28b656e7fc306cdb13a1a7c850e9ca2c6706/example.html",
+        "size": 553
+      }
+    },
+    "public": true,
+    "created_at": "2012-11-28T21:08:19Z",
+    "updated_at": "2012-11-28T21:08:19Z",
+    "description": "Bootstrap Popover modified to show existing content (still needs some cleanup)",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/4164501/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  },
+  {
+    "url": "https://api.github.com/gists/1793576",
+    "forks_url": "https://api.github.com/gists/1793576/forks",
+    "commits_url": "https://api.github.com/gists/1793576/commits",
+    "id": "1793576",
+    "git_pull_url": "https://gist.github.com/1793576.git",
+    "git_push_url": "https://gist.github.com/1793576.git",
+    "html_url": "https://gist.github.com/1793576",
+    "files": {
+      "gistfile1.js": {
+        "filename": "gistfile1.js",
+        "type": "application/javascript",
+        "language": "JavaScript",
+        "raw_url": "https://gist.githubusercontent.com/craigmaslowski/1793576/raw/38ea4381b4e1b27553f50d7dcfb28888f1bc5bbb/gistfile1.js",
+        "size": 286
+      }
+    },
+    "public": true,
+    "created_at": "2012-02-10T22:26:56Z",
+    "updated_at": "2012-02-10T22:26:56Z",
+    "description": "Compound Id's with Backbone",
+    "comments": 0,
+    "user": null,
+    "comments_url": "https://api.github.com/gists/1793576/comments",
+    "owner": {
+      "login": "craigmaslowski",
+      "id": 969398,
+      "avatar_url": "https://avatars.githubusercontent.com/u/969398?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/craigmaslowski",
+      "html_url": "https://github.com/craigmaslowski",
+      "followers_url": "https://api.github.com/users/craigmaslowski/followers",
+      "following_url": "https://api.github.com/users/craigmaslowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/craigmaslowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/craigmaslowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/craigmaslowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/craigmaslowski/orgs",
+      "repos_url": "https://api.github.com/users/craigmaslowski/repos",
+      "events_url": "https://api.github.com/users/craigmaslowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/craigmaslowski/received_events",
+      "type": "User",
+      "site_admin": false
+    }
+  }
+]

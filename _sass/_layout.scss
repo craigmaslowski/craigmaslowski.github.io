@@ -17,10 +17,8 @@
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
-}
 
-@include media-query(map-get($breakpoints, "large")) {
-  #site-content {
+  @include media-query(map-get($breakpoints, "large")) {
     padding: 0;
   }
 }
@@ -31,10 +29,8 @@
 
 .push {
   height: $footer-height / 6;
-}
-
-@include media-query(map-get($breakpoints, "large")) {
-  .push {
+  
+  @include media-query(map-get($breakpoints, "large")) {
     height: $footer-height / 2;
   }
 }

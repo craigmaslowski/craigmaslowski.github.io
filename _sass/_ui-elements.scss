@@ -9,29 +9,49 @@
 
 .responsive-line-break {
   display: block;
-}
 
-@include media-query(map-get($breakpoints, "medium")) {
-  .responsive-line-break {
+  @include media-query(map-get($breakpoints, "medium")) {
+    display: inline;
+  }
+
+  @include media-query(map-get($breakpoints, "large")) {
     display: inline;
   }
 }
 
-@include media-query(map-get($breakpoints, "large")) {
-  .responsive-line-break {
-    display: inline;
-  }
-}
-
-.me {
-  display: block;
-  margin: 0 auto;
-  width: 280px; 
-  height: 372px;
+.me { 
   border: 10px solid #fafafa;
   
-  img {
-    width: 280px; 
+  &.floated {
+    display: none;
+    float: left;
+    height: 400px;
+    width: 301px;
+    margin: 0 20px 20px 0;
+    
+    img {
+      height: 400px;
+      width: 301px;
+    }
+
+    @include media-query(map-get($breakpoints, "large")) {
+      display: block;
+    }
+  }
+
+  &.inline {
+    display: block;
     height: 372px;
+    width: 280px;
+    margin: 0 auto;
+    
+    img {
+      height: 372px;
+      width: 280px;
+    }
+    
+    @include media-query(map-get($breakpoints, "large")) {
+      display: none;
+    }
   }
 }
