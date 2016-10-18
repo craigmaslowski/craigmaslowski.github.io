@@ -1,7 +1,0 @@
-// Usage: @include media-query($600px) { }
-
-@mixin media-query($width) {
-    @media screen and (min-width: $width) {
-        @content;
-    }
-}
