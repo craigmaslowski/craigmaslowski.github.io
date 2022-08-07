@@ -68,6 +68,14 @@ li:before {
     color: #dd4545;
 }
 
+.assistive-text { 
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  width: 1px;
+}
+
 @media (min-width: 768px) {
     #header {
         font-size: 1.75em;
