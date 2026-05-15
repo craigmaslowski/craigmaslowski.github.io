@@ -32,6 +32,9 @@
     <path d="M 16 16 L 6.101 6.101 A 14 14 0 0 1 12.378 2.476 Z" fill="#65a30d" />
   </g>
 
+  <!-- Inner hole — masks the pointed tips so the wheel reads as a ring -->
+  <circle cx="16" cy="16" r="5" fill="#0f172a" />
+
   <!-- Subtle outer highlight ring -->
   <circle cx="16" cy="16" r="14" fill="none" stroke="#0f172a" stroke-width="1.2" />
 </svg>
