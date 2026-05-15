@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Key Matcher">
+  <!-- Background disc (fills behind the wedges, also rounds the edge) -->
+  <circle cx="16" cy="16" r="15.5" fill="#0f172a" />
+
+  <!-- 12 wedges as a full pie, colored on a warm gradient that mirrors
+       around the vertical axis: green at top → red at bottom → green back up.
+       Each wedge spans 30°; wedge 0 is centered at 12 o'clock. -->
+  <g stroke="#0f172a" stroke-width="0.6" stroke-linejoin="round">
+    <!-- 0: top, green -->
+    <path d="M 16 16 L 12.378 2.476 A 14 14 0 0 1 19.622 2.476 Z" fill="#22c55e" />
+    <!-- 1: 30° clockwise, lime -->
+    <path d="M 16 16 L 19.622 2.476 A 14 14 0 0 1 25.899 6.101 Z" fill="#65a30d" />
+    <!-- 2: 60°, yellow -->
+    <path d="M 16 16 L 25.899 6.101 A 14 14 0 0 1 29.524 12.378 Z" fill="#ca8a04" />
+    <!-- 3: 90°, amber -->
+    <path d="M 16 16 L 29.524 12.378 A 14 14 0 0 1 29.524 19.622 Z" fill="#d97706" />
+    <!-- 4: 120°, deep orange -->
+    <path d="M 16 16 L 29.524 19.622 A 14 14 0 0 1 25.899 25.899 Z" fill="#ea580c" />
+    <!-- 5: 150°, red-orange -->
+    <path d="M 16 16 L 25.899 25.899 A 14 14 0 0 1 19.622 29.524 Z" fill="#b91c1c" />
+    <!-- 6: 180°, bottom, red -->
+    <path d="M 16 16 L 19.622 29.524 A 14 14 0 0 1 12.378 29.524 Z" fill="#7f1d1d" />
+    <!-- 7: 210°, red-orange -->
+    <path d="M 16 16 L 12.378 29.524 A 14 14 0 0 1 6.101 25.899 Z" fill="#b91c1c" />
+    <!-- 8: 240°, deep orange -->
+    <path d="M 16 16 L 6.101 25.899 A 14 14 0 0 1 2.476 19.622 Z" fill="#ea580c" />
+    <!-- 9: 270°, amber -->
+    <path d="M 16 16 L 2.476 19.622 A 14 14 0 0 1 2.476 12.378 Z" fill="#d97706" />
+    <!-- 10: 300°, yellow -->
+    <path d="M 16 16 L 2.476 12.378 A 14 14 0 0 1 6.101 6.101 Z" fill="#ca8a04" />
+    <!-- 11: 330°, lime -->
+    <path d="M 16 16 L 6.101 6.101 A 14 14 0 0 1 12.378 2.476 Z" fill="#65a30d" />
+  </g>
+
+  <!-- Subtle outer highlight ring -->
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#0f172a" stroke-width="1.2" />
+</svg>
