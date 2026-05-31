@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Steel-blue rounded tile -->
+  <rect width="512" height="512" rx="104" fill="#2a4d6e"/>
+  <!-- High-contrast serif "C" reversed in pale ground color -->
+  <!-- Drawn to echo Fraunces: heavy left bowl, thin terminals, bracketed serifs -->
+  <path fill="#f1f3f5" d="
+    M 360 150
+    C 320 116, 268 104, 224 116
+    C 158 134, 120 192, 120 256
+    C 120 320, 158 378, 224 396
+    C 268 408, 320 396, 360 362
+    L 360 318
+    C 330 352, 292 368, 256 360
+    C 210 350, 184 306, 184 256
+    C 184 206, 210 162, 256 152
+    C 292 144, 330 160, 360 194
+    Z
+  "/>
+</svg>
