@@ -1,314 +1,512 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Craig Maslowski — Software Development Manager &amp; Application Architect
+      Craig Maslowski — Engineering Manager &amp; Application Architect
     </title>
+    <meta
+      name="description"
+      content="Craig Maslowski — engineering manager and application architect. Nearly thirty years building software and leading the teams who build it, now at the forefront of AI-native development."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Craig Maslowski — Engineering Manager &amp; Application Architect"
+    />
+    <meta
+      property="og:description"
+      content="I build systems that last — and lead the teams who build them."
+    />
+    <meta property="og:url" content="https://craigmaslowski.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon_tile.svg" />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/images/favicon-16x16.png"
-    />
-    <link rel="icon" href="/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Mona+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <style>
       :root {
-        --bg: #f1f3f5;
-        --ink: #1c1a17;
-        --ink-soft: #4a463f;
-        --ink-faint: #7e828a;
-        --accent: #2a4d6e;
-        --rule: #dadde1;
-        --max: 700px;
+        --paper: #eef0f3;
+        --ink: #171c24;
+        --ink-strong: #12171f;
+        --body: #39404c;
+        --muted: #656c78;
+        --line: #e2e5ea;
+        --blue: #2976bb;
+        --blue-dark: #205e97;
+        --mint: #01ec9d;
+        --band: #e6e9ee;
+        --band-line: #d8dce3;
       }
-
       * {
-        margin: 0;
-        padding: 0;
         box-sizing: border-box;
       }
       html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Hanken Grotesk", system-ui, sans-serif;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
       }
-
-      body {
-        background: var(--bg);
-        color: var(--ink);
-        font-family:
-          "Mona Sans",
-          -apple-system,
-          system-ui,
-          sans-serif;
-        font-size: 1.12rem;
-        line-height: 1.62;
-        padding: clamp(2.5rem, 8vw, 7rem) 1.5rem;
+      a {
+        color: inherit;
+        text-decoration: none;
       }
-
       .wrap {
-        max-width: var(--max);
+        max-width: 1080px;
         margin: 0 auto;
+        padding: 0 clamp(22px, 5vw, 64px);
       }
 
-      .name {
-        font-family: "Fraunces", Georgia, serif;
-        font-weight: 500;
-        font-size: clamp(3rem, 9vw, 5rem);
-        line-height: 1;
-        letter-spacing: -0.025em;
-        margin-bottom: 1rem;
-        opacity: 0;
-        animation: rise 0.7s ease forwards;
+      /* top bar */
+      .topbar {
+        border-bottom: 1px solid var(--line);
       }
-
-      .tagline {
-        font-family: "Fraunces", serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: clamp(1.3rem, 3.2vw, 1.7rem);
-        color: var(--accent);
-        letter-spacing: -0.01em;
-        margin-bottom: 2.6rem;
-        opacity: 0;
-        animation: rise 0.7s ease 0.08s forwards;
-      }
-
-      p {
-        color: var(--ink-soft);
-        margin-bottom: 1.4rem;
-        opacity: 0;
-        animation: rise 0.7s ease 0.16s forwards;
-      }
-      p strong {
-        color: var(--ink);
-        font-weight: 600;
-      }
-
-      .work-intro {
-        margin-top: 3.4rem;
-        margin-bottom: 1.5rem;
-        font-family: "Mona Sans", sans-serif;
-        font-size: 0.78rem;
-        font-weight: 600;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--ink-faint);
-        opacity: 0;
-        animation: rise 0.7s ease 0.24s forwards;
-      }
-
-      ul.work {
-        list-style: none;
-        border-top: 1px solid var(--rule);
-        opacity: 0;
-        animation: rise 0.7s ease 0.3s forwards;
-      }
-      ul.work li {
+      .topbar .wrap {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
-        gap: 1.5rem;
-        padding: 0.8rem 0;
-        border-bottom: 1px solid var(--rule);
-        transition: padding-left 0.25s ease;
+        align-items: center;
+        gap: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
       }
-      ul.work li:hover {
-        padding-left: 0.5rem;
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
       }
-      ul.work .what {
-        color: var(--ink);
-        font-size: 1.05rem;
-        font-weight: 500;
-        transition: color 0.25s ease;
+      .swatches {
+        display: inline-flex;
+        gap: 3px;
       }
-      ul.work li:hover .what {
-        color: var(--accent);
+      .swatches i {
+        width: 9px;
+        height: 9px;
+        display: inline-block;
       }
-      ul.work .who {
-        font-size: 0.74rem;
-        font-weight: 600;
-        letter-spacing: 0.08em;
+      .brand .name {
+        font-family: "Archivo", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      .role {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.16em;
         text-transform: uppercase;
-        color: var(--ink-faint);
-        white-space: nowrap;
-        flex-shrink: 0;
+        color: var(--blue);
+        text-align: right;
       }
 
-      .closing {
-        margin-top: 2.6rem;
-        font-family: "Fraunces", serif;
-        font-size: 1.32rem;
+      /* hero */
+      .hero {
+        padding: clamp(48px, 8vw, 84px) 0 clamp(34px, 5vw, 48px);
+      }
+      .hero h1 {
+        font-family: "Archivo", sans-serif;
+        font-weight: 800;
+        font-size: clamp(36px, 6.6vw, 62px);
+        line-height: 0.99;
+        letter-spacing: -0.035em;
+        margin: 0;
+        color: var(--ink-strong);
+        max-width: 17ch;
+      }
+      .lede {
+        padding-bottom: clamp(48px, 7vw, 66px);
+        display: grid;
+        grid-template-columns: 1.62fr 1fr;
+        gap: clamp(30px, 5vw, 54px);
+        align-items: start;
+      }
+      .lede p {
+        font-size: clamp(16px, 1.7vw, 17px);
+        line-height: 1.68;
+        margin: 0;
+        color: var(--body);
+      }
+      .lede blockquote {
+        margin: 0;
+        padding: 8px 0 8px 22px;
+        border-left: 3px solid var(--blue);
+        font-family: "Archivo", sans-serif;
+        font-size: clamp(17px, 1.9vw, 19px);
         line-height: 1.45;
-        color: var(--ink);
+        font-weight: 600;
+        color: #193046;
         letter-spacing: -0.01em;
       }
 
-      .contact {
-        margin-top: 3rem;
-        padding-top: 1.7rem;
-        border-top: 1px solid var(--rule);
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.8rem;
-        opacity: 0;
-        animation: rise 0.7s ease 0.4s forwards;
+      /* capability band */
+      .band {
+        background: var(--band);
+        border-top: 1px solid var(--band-line);
+        border-bottom: 1px solid var(--band-line);
       }
-      .contact a {
+      .band .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .cap {
+        padding: clamp(30px, 4vw, 40px) clamp(26px, 3vw, 40px);
+      }
+      .cap + .cap {
+        border-left: 1px solid var(--band-line);
+      }
+      .cap .n {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        color: var(--blue);
+        letter-spacing: 0.14em;
+        margin-bottom: 14px;
+      }
+      .cap h3 {
+        font-family: "Archivo", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
         color: var(--ink);
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 600;
-        letter-spacing: 0.09em;
-        text-transform: uppercase;
-        position: relative;
-        padding-bottom: 3px;
+        margin: 0 0 10px;
       }
-      .contact a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 1.5px;
-        background: var(--accent);
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease;
-      }
-      .contact a:hover {
-        color: var(--accent);
-      }
-      .contact a:hover::after {
-        transform: scaleX(1);
+      .cap p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #545b66;
+        margin: 0;
       }
 
-      @keyframes rise {
-        from {
-          opacity: 0;
-          transform: translateY(12px);
+      /* selected work */
+      .work {
+        padding: clamp(46px, 6vw, 60px) 0 clamp(30px, 4vw, 44px);
+      }
+      .eyebrow {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+      .eyebrow i {
+        width: 8px;
+        height: 8px;
+        background: var(--mint);
+        display: inline-block;
+      }
+      .eyebrow span {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--blue);
+      }
+      .eyebrow .rule {
+        flex: 1;
+        height: 1px;
+        background: var(--line);
+      }
+      .item {
+        display: grid;
+        grid-template-columns: 44px 1fr auto;
+        align-items: baseline;
+        gap: 16px;
+        padding: 16px 12px 16px 0;
+        border-bottom: 1px solid var(--line);
+        border-left: 2px solid transparent;
+        transition:
+          border-color 0.2s ease,
+          background 0.25s ease,
+          padding-left 0.2s ease;
+      }
+      .item:hover {
+        border-left-color: var(--mint);
+        padding-left: 14px;
+        background: linear-gradient(
+          90deg,
+          rgba(1, 236, 157, 0.24),
+          transparent
+        );
+      }
+      .item .num {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 12px;
+        color: var(--blue);
+      }
+      .item .proj {
+        font-family: "Archivo", sans-serif;
+        font-size: clamp(18px, 2.1vw, 21px);
+        font-weight: 600;
+        color: var(--ink);
+        letter-spacing: -0.01em;
+      }
+      .item .co {
+        font-size: 15px;
+        color: var(--muted);
+        text-align: right;
+      }
+
+      /* footer */
+      .foot {
+        border-top: 1px solid var(--line);
+        margin-top: 14px;
+      }
+      .foot .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 28px;
+        flex-wrap: wrap;
+        padding-top: 36px;
+        padding-bottom: clamp(48px, 7vw, 66px);
+      }
+      .foot p {
+        font-size: 16px;
+        color: #555c68;
+        margin: 0;
+        max-width: 46ch;
+      }
+      .links {
+        display: flex;
+        gap: 12px;
+      }
+      .btn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 22px;
+        border-radius: 6px;
+        transition:
+          transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
+          background 0.2s ease,
+          border-color 0.2s ease,
+          color 0.2s ease;
+        will-change: transform;
+      }
+      .btn:hover {
+        transform: scale(1.06);
+      }
+      .btn-primary {
+        background: var(--blue);
+        color: #f3f7fb;
+      }
+      .btn-primary:hover {
+        background: var(--blue-dark);
+      }
+      .btn-ghost {
+        color: var(--ink);
+        border: 1px solid #cbcfd6;
+      }
+      .btn-ghost:hover {
+        border-color: var(--blue);
+        color: var(--blue);
+      }
+
+      @media (max-width: 820px) {
+        .role {
+          display: none;
         }
-        to {
-          opacity: 1;
-          transform: translateY(0);
+        .lede {
+          grid-template-columns: 1fr;
+          gap: 28px;
+        }
+        .band .grid {
+          grid-template-columns: 1fr;
+        }
+        .cap + .cap {
+          border-left: none;
+          border-top: 1px solid var(--band-line);
+        }
+        .item {
+          grid-template-columns: 34px 1fr;
+          gap: 6px 14px;
+        }
+        .item .co {
+          grid-column: 2;
+          text-align: left;
+          font-size: 14px;
+        }
+        .item:hover {
+          padding-left: 10px;
+        }
+        .foot .wrap {
+          gap: 22px;
         }
       }
       @media (prefers-reduced-motion: reduce) {
-        * {
-          animation: none !important;
-          opacity: 1 !important;
+        .btn,
+        .item {
+          transition: none;
         }
-      }
-      @media (max-width: 540px) {
-        ul.work li {
-          flex-direction: column;
-          gap: 0.15rem;
-        }
-        ul.work .who {
-          white-space: normal;
+        .btn:hover {
+          transform: none;
         }
       }
     </style>
   </head>
   <body>
-    <main class="wrap">
-      <h1 class="name">Craig Maslowski</h1>
-      <p class="tagline">I build software and I love it.</p>
+    <header class="topbar">
+      <div class="wrap">
+        <span class="brand">
+          <span class="swatches" aria-hidden="true"
+            ><i style="background: #2976bb"></i
+            ><i style="background: #01ec9d"></i
+          ></span>
+          <span class="name">Craig Maslowski</span>
+        </span>
+        <span class="role">Engineering Manager · Application Architect</span>
+      </div>
+    </header>
 
-      <p>
-        I'm a software development manager and application architect
-        specializing in well-architected frontend applications and LLM / agentic
-        AI solutions. Building things has been my craft for nearly 30 years, and
-        the thrill of it hasn't worn off.
-      </p>
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <h1>
+            I build systems that last — and lead the teams who build them.
+          </h1>
+        </div>
+      </section>
 
-      <p>
-        I design software that ships, scales, and lasts — without losing sight
-        of the people using it or the business paying for it. These days I lead
-        engineering teams building production AI applications, while staying
-        hands-on in architecture, UI/UX, and code. I got in early on the
-        frontend revolution, back when frameworks were just becoming real
-        engineering. I've gotten in early again on the AI one — building my
-        organization's <strong>first internally-approved LLM tools</strong> and
-        leading my team's shift to AI-assisted development.
-      </p>
+      <section>
+        <div class="wrap lede">
+          <p>
+            I'm an engineering manager and application architect. For nearly
+            thirty years I've designed and built software — and led the people
+            who build it. Today I lead teams building production AI
+            applications, and I'm at the forefront of the AI-assisted
+            development shift — helping my teams operationalize it into real
+            productivity gains without sacrificing the quality and craft that
+            make software last.
+          </p>
+          <blockquote>
+            "I lead teams that build production software with AI-native
+            development — and stay hands-on in the architecture and code they
+            ship."
+          </blockquote>
+        </div>
+      </section>
 
-      <p class="work-intro">Selected work, over the years</p>
+      <section class="band">
+        <div class="wrap grid">
+          <div class="cap">
+            <div class="n">01</div>
+            <h3>Engineering leadership</h3>
+            <p>
+              Leading multiple teams building production AI applications —
+              hiring, mentoring, and setting technical direction.
+            </p>
+          </div>
+          <div class="cap">
+            <div class="n">02</div>
+            <h3>Application architecture</h3>
+            <p>
+              Deep frontend &amp; application architecture — systems designed to
+              ship, scale, and last.
+            </p>
+          </div>
+          <div class="cap">
+            <div class="n">03</div>
+            <h3>AI-native development</h3>
+            <p>
+              Operationalizing AI-assisted development so teams move faster
+              without losing quality.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <ul class="work">
-        <li>
-          <span class="what">LLM &amp; agentic AI solutions</span
-          ><span class="who">Accenture</span>
-        </li>
-        <li>
-          <span class="what">Internal applications</span
-          ><span class="who">Meta</span>
-        </li>
-        <li>
-          <span class="what">Timeshare management platform</span
-          ><span class="who">ResortCom</span>
-        </li>
-        <li>
-          <span class="what">Identity-theft protection service</span
-          ><span class="who">CSA Travel Protection</span>
-        </li>
-        <li>
-          <span class="what">Online textbook reader</span
-          ><span class="who">Bridgepoint Education</span>
-        </li>
-        <li>
-          <span class="what">Automotive diagnostic systems</span
-          ><span class="who">Mitchell 1</span>
-        </li>
-        <li>
-          <span class="what">Youth-sports registration system</span
-          ><span class="who">The Active Network</span>
-        </li>
-        <li>
-          <span class="what">Accounting &amp; reconciliation systems</span
-          ><span class="who">GMAC ResCap</span>
-        </li>
-        <li>
-          <span class="what">Online knowledge base</span
-          ><span class="who">GoldMine Software</span>
-        </li>
-      </ul>
+      <section class="work">
+        <div class="wrap">
+          <div class="eyebrow">
+            <i aria-hidden="true"></i>
+            <span>Selected Work</span>
+            <span class="rule"></span>
+          </div>
 
-      <p class="closing">
-        Thirty years in, I'm still an architect at heart — happiest when
-        designing elegant systems and the interfaces people actually touch.
-      </p>
-
-      <nav class="contact">
-        <a href="mailto:craig@craigmaslowski.com">Email</a>
-        <a
-          href="https://github.com/craigmaslowski/"
-          target="_blank"
-          rel="noopener"
-          >GitHub</a
-        >
-        <a
-          href="https://www.linkedin.com/in/craig-maslowski-48a8a836"
-          target="_blank"
-          rel="noopener"
-          >LinkedIn</a
-        >
-      </nav>
+          <div class="item">
+            <span class="num">01</span
+            ><span class="proj">LLM &amp; agentic AI applications</span
+            ><span class="co">Accenture</span>
+          </div>
+          <div class="item">
+            <span class="num">02</span
+            ><span class="proj">Internal enterprise applications</span
+            ><span class="co">Meta</span>
+          </div>
+          <div class="item">
+            <span class="num">03</span
+            ><span class="proj">Identity-theft protection platform</span
+            ><span class="co">CSA Travel Protection</span>
+          </div>
+          <div class="item">
+            <span class="num">04</span
+            ><span class="proj">Timeshare management platform</span
+            ><span class="co">ResortCom</span>
+          </div>
+          <div class="item">
+            <span class="num">05</span
+            ><span class="proj">Digital textbook reader app</span
+            ><span class="co">Bridgepoint Education</span>
+          </div>
+          <div class="item">
+            <span class="num">06</span
+            ><span class="proj">Automotive diagnostic systems</span
+            ><span class="co">Mitchell 1</span>
+          </div>
+          <div class="item">
+            <span class="num">07</span
+            ><span class="proj">Youth-sports registration platform</span
+            ><span class="co">The Active Network</span>
+          </div>
+          <div class="item">
+            <span class="num">08</span
+            ><span class="proj">Accounting &amp; reconciliation systems</span
+            ><span class="co">GMAC ResCap</span>
+          </div>
+          <div class="item">
+            <span class="num">09</span
+            ><span class="proj">Knowledge-base web application</span
+            ><span class="co">GoldMine Software</span>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <p>
+          Equal parts architect and leader — happiest designing elegant systems
+          and leading the teams that bring them to life.
+        </p>
+        <nav class="links">
+          <a
+            class="btn btn-primary"
+            href="/cdn-cgi/l/email-protection#3a59485b535d7a59485b535d575b4956554d49515314595557"
+            >Email</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://github.com/craigmaslowski/"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://www.linkedin.com/in/craig-maslowski-48a8a836"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </nav>
+      </div>
+    </footer>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
   </body>
 </html>
